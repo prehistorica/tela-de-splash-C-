@@ -1,0 +1,214 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{66715655-37DD-49CD-9637-4B6DE2F52412}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>VIngadores_Quiz</RootNamespace>
+    <AssemblyName>VIngadores Quiz</AssemblyName>
+    <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.Designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmMenu.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmMenu.Designer.cs">
+      <DependentUpon>frmMenu.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmPergunta1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmPergunta1.Designer.cs">
+      <DependentUpon>frmPergunta1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmPergunta2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmPergunta2.Designer.cs">
+      <DependentUpon>frmPergunta2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmPergunta3.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmPergunta3.Designer.cs">
+      <DependentUpon>frmPergunta3.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmPergunta4.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmPergunta4.Designer.cs">
+      <DependentUpon>frmPergunta4.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmPergunta5.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmPergunta5.Designer.cs">
+      <DependentUpon>frmPergunta5.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmPergunta6.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmPergunta6.Designer.cs">
+      <DependentUpon>frmPergunta6.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmPergunta7.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmPergunta7.Designer.cs">
+      <DependentUpon>frmPergunta7.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmPergunta8.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmPergunta8.Designer.cs">
+      <DependentUpon>frmPergunta8.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmResultado.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmResultado.Designer.cs">
+      <DependentUpon>frmResultado.cs</DependentUpon>
+    </Compile>
+    <Compile Include="pontuacao.cs" />
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmMenu.resx">
+      <DependentUpon>frmMenu.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmPergunta1.resx">
+      <DependentUpon>frmPergunta1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmPergunta2.resx">
+      <DependentUpon>frmPergunta2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmPergunta3.resx">
+      <DependentUpon>frmPergunta3.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmPergunta4.resx">
+      <DependentUpon>frmPergunta4.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmPergunta5.resx">
+      <DependentUpon>frmPergunta5.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmPergunta6.resx">
+      <DependentUpon>frmPergunta6.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmPergunta7.resx">
+      <DependentUpon>frmPergunta7.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmPergunta8.resx">
+      <DependentUpon>frmPergunta8.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmResultado.resx">
+      <DependentUpon>frmResultado.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\avengers-united-poster.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\vingadores2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\v3.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\vingadores21.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\vingadores_resultado.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ha.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\doutorestranho.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="imagens\scarlet-witch-wandavision-e1616218553315.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="imagens\AoU_Thor_02.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="imagens\hulk.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="imagens\Viuva-Negra-Scarlet-Johansson.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="imagens\homem-de-ferro-tony-divulgacao.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="imagens\1_capitao_america-6483583.jpg" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

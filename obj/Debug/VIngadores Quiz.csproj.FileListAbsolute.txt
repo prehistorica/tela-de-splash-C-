@@ -1,0 +1,20 @@
+D:\Visual Studio\VIngadores Quiz\bin\Debug\VIngadores Quiz.exe.config
+D:\Visual Studio\VIngadores Quiz\bin\Debug\VIngadores Quiz.exe
+D:\Visual Studio\VIngadores Quiz\bin\Debug\VIngadores Quiz.pdb
+D:\Visual Studio\VIngadores Quiz\obj\Debug\VIngadores Quiz.csprojAssemblyReference.cache
+D:\Visual Studio\VIngadores Quiz\obj\Debug\VIngadores_Quiz.frmSplash.resources
+D:\Visual Studio\VIngadores Quiz\obj\Debug\VIngadores_Quiz.Properties.Resources.resources
+D:\Visual Studio\VIngadores Quiz\obj\Debug\VIngadores Quiz.csproj.GenerateResource.cache
+D:\Visual Studio\VIngadores Quiz\obj\Debug\VIngadores Quiz.csproj.CoreCompileInputs.cache
+D:\Visual Studio\VIngadores Quiz\obj\Debug\VIngadores Quiz.exe
+D:\Visual Studio\VIngadores Quiz\obj\Debug\VIngadores Quiz.pdb
+D:\Visual Studio\VIngadores Quiz\obj\Debug\VIngadores_Quiz.frmMenu.resources
+D:\Visual Studio\VIngadores Quiz\obj\Debug\VIngadores_Quiz.frmPergunta1.resources
+D:\Visual Studio\VIngadores Quiz\obj\Debug\VIngadores_Quiz.frmPergunta2.resources
+D:\Visual Studio\VIngadores Quiz\obj\Debug\VIngadores_Quiz.frmPergunta3.resources
+D:\Visual Studio\VIngadores Quiz\obj\Debug\VIngadores_Quiz.frmPergunta4.resources
+D:\Visual Studio\VIngadores Quiz\obj\Debug\VIngadores_Quiz.frmPergunta5.resources
+D:\Visual Studio\VIngadores Quiz\obj\Debug\VIngadores_Quiz.frmPergunta6.resources
+D:\Visual Studio\VIngadores Quiz\obj\Debug\VIngadores_Quiz.frmPergunta7.resources
+D:\Visual Studio\VIngadores Quiz\obj\Debug\VIngadores_Quiz.frmPergunta8.resources
+D:\Visual Studio\VIngadores Quiz\obj\Debug\VIngadores_Quiz.frmResultado.resources
